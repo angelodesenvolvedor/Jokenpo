@@ -85,6 +85,8 @@ export default function Jokenpo() {
       <div className="w-full max-w-md space-y-6">
         <div className="flex justify-between items-center">
           <h1 className="text-2xl font-bold">Jokenpô</h1>
+          <meta name="description" content="Jogo de pedra, papel e tesoura" />
+          <link rel="icon" href="favicon.png" type="image/png" />
           <button
             onClick={() => setDark(!dark)}
             className={clsx(

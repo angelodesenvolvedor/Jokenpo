@@ -2,13 +2,9 @@
 
 Um mini jogo divertido de Pedra, Papel e Tesoura, feito com React + Tailwind, com placar automático e modo escuro!
 
----
-
 ## 🔥 Introdução
 
 Este projeto é um jogo interativo onde o usuário joga contra o computador. O objetivo é simples: escolher entre **pedra**, **papel** ou **tesoura** e tentar vencer com base nas regras clássicas do Jokenpô.
-
----
 
 ## ✅ Funcionalidades
 
@@ -18,15 +14,12 @@ Este projeto é um jogo interativo onde o usuário joga contra o computador. O o
 - 🌗 Alternância entre tema claro e escuro.
 - 📱 Layout responsivo (funciona bem em qualquer tela).
 
----
-
 ## ⚙️ Pré-requisitos
 
 Antes de rodar o projeto, certifique-se de que tem o seguinte instalado na máquina:
 
 - [Node.js](https://nodejs.org/)
 - [Git](https://git-scm.com/)
----
 
 ## 🔨 Guia de Instalação
 
@@ -55,7 +48,6 @@ npm install
 ```bash
 npm run dev
 ```
----
 
 ## 📦 Tecnologias Usadas
 
@@ -63,8 +55,6 @@ npm run dev
 - 🚀 [Next.js](https://nextjs.org/)
 - 💨 [Tailwind CSS](https://tailwindcss.com/)
 - 🔡 [TypeScript](https://www.typescriptlang.org/)
-
----
 
 ## 👷 Autor
 

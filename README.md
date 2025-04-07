@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🕹️ Jokenpô
 
-## Getting Started
+Um mini jogo divertido de Pedra, Papel e Tesoura, feito com React + Tailwind, com placar automático e modo escuro!
 
-First, run the development server:
+## 🔥 Introdução
+
+Este projeto é um jogo interativo onde o usuário joga contra o computador. O objetivo é escolher entre **pedra**, **papel** ou **tesoura**, e ver quem vence de acordo com as regras clássicas do Jokenpô.  
+Funcionalidades:
+- Animações e efeitos de resultado.
+- Placar salvo localmente.
+- Tema claro/escuro.
+- Interface responsiva.
+
+### ⚙️ Pré-requisitos
+
+Antes de rodar o projeto, é bom ter instalado:
+- [Node.js](https://nodejs.org/)
+- [Git](https://git-scm.com/)
+- Um gerenciador de pacotes como **npm** ou **yarn**
+
+```bash
+node -v
+npm -v
+```
+
+### 🔨 Guia de instalação
+
+Clone o repositório e instale as dependências:
+
+```bash
+git clone https://github.com/seu-usuario/jokenpo
+cd jokenpo
+npm install
+```
+
+Rode o projeto:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abra no navegador:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📦 Tecnologias usadas:
 
-## Learn More
+- [React](https://reactjs.org/)
+- [Next.js](https://nextjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [clsx](https://www.npmjs.com/package/clsx) (pra lidar com classes dinamicamente)
 
-To learn more about Next.js, take a look at the following resources:
+## 👷 Autor
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+ * **Nome do dev** - *Função realizada* - [nome_do_dev](https://github.com/link_do_Perfil)

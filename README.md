@@ -77,4 +77,4 @@ npm run dev
 
 ## 👷 Autor
 
-- **Ângelo Silvano** — *Front-End Developer* [github.com/angelodesenvolvedor](https://github.com/angelodesenvolvedor)
+- - **Ângelo Silvano**  - *Front-End Developer* - [angelodesenvolvedor](https://github.com/angelodesenvolvedor)  

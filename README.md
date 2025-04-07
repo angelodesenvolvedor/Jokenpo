@@ -52,7 +52,6 @@ http://localhost:3000
 - [Next.js](https://nextjs.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [TypeScript](https://www.typescriptlang.org/)
-- [clsx](https://www.npmjs.com/package/clsx) (pra lidar com classes dinamicamente)
 
 ## 👷 Autor
 

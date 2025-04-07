@@ -64,13 +64,6 @@ npm install
 ```bash
 npm run dev
 ```
-
-5. **Abra no navegador:**
-
-```bash
-http://localhost:3000
-```
-
 ---
 
 ## 📦 Tecnologias Usadas
@@ -85,4 +78,3 @@ http://localhost:3000
 ## 👷 Autor
 
 - **Ângelo Silvano** — *Front-End Developer* [github.com/angelodesenvolvedor](https://github.com/angelodesenvolvedor)
-```

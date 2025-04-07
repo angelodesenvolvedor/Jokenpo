@@ -5,7 +5,8 @@ Um mini jogo divertido de Pedra, Papel e Tesoura, feito com React + Tailwind, co
 ## 🔥 Introdução
 
 Este projeto é um jogo interativo onde o usuário joga contra o computador. O objetivo é escolher entre **pedra**, **papel** ou **tesoura**, e ver quem vence de acordo com as regras clássicas do Jokenpô.  
-Funcionalidades:
+
+## ✅ Funcionalidades:
 - Animações e efeitos de resultado.
 - Placar salvo localmente.
 - Tema claro/escuro.

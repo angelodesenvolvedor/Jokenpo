@@ -26,15 +26,6 @@ Antes de rodar o projeto, certifique-se de que tem o seguinte instalado na máqu
 
 - [Node.js](https://nodejs.org/)
 - [Git](https://git-scm.com/)
-- Gerenciador de pacotes como **npm** ou **yarn**
-
-Verifique com os comandos:
-
-```bash
-node -v
-npm -v
-```
-
 ---
 
 ## 🔨 Guia de Instalação

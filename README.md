@@ -34,16 +34,10 @@ https://github.com/angelodesenvolvedor/Jokenpo.git
 2. **Entre na pasta do projeto:**
 
 ```bash
-cd jokenpo
+cd Jokenpo
 ```
 
-3. **Instale as dependências:**
-
-```bash
-npm install
-```
-
-4. **Execute o projeto em ambiente de desenvolvimento:**
+3. **Execute o projeto em ambiente de desenvolvimento:**
 
 ```bash
 npm run dev

@@ -9,6 +9,12 @@ const opcoes = [
   { nome: 'tesoura', emoji: '✂️' },
 ]
 
+const mensagens = {
+  vitoria: ['Mandou bem!', 'Boa jogada!'],
+  derrota: ['Puts, perdeu essa!', 'Não foi dessa vez...', 'O computador venceu!'],
+  empate: ['Deu empate!', 'Ih, igualzinho!', 'Ninguém levou ponto!'],
+}
+
 export default function Jokenpo() {
   const [jogador, setJogador] = useState('')
   const [computador, setComputador] = useState('')
@@ -51,22 +57,30 @@ export default function Jokenpo() {
 
   function definirResultado(j: string, c: string) {
     if (j === c) {
-      setResultado('Empate!')
+      setResultado(mensagemResultado('empate'))
       setAnimar('empate')
       setPlacar((p) => ({ ...p, empates: p.empates + 1 }))
+      // playSom('empate')
     } else if (
       (j === 'pedra' && c === 'tesoura') ||
       (j === 'papel' && c === 'pedra') ||
       (j === 'tesoura' && c === 'papel')
     ) {
-      setResultado('Você venceu!')
+      setResultado(mensagemResultado('vitoria'))
       setAnimar('vitoria')
       setPlacar((p) => ({ ...p, vitorias: p.vitorias + 1 }))
+      // playSom('vitoria')
     } else {
-      setResultado('Você perdeu!')
+      setResultado(mensagemResultado('derrota'))
       setAnimar('derrota')
       setPlacar((p) => ({ ...p, derrotas: p.derrotas + 1 }))
+      // playSom('derrota')
     }
+  }
+
+  function mensagemResultado(tipo: 'vitoria' | 'derrota' | 'empate') {
+    const msg = mensagens[tipo]
+    return msg[Math.floor(Math.random() * msg.length)]
   }
 
   function resetarPlacar() {
@@ -79,6 +93,11 @@ export default function Jokenpo() {
     setResultado('')
     setAnimar('')
   }
+
+  // function playSom(tipo: 'vitoria' | 'derrota' | 'empate') {
+  //   const audio = new Audio(`/sons/${tipo}.mp3`)
+  //   audio.play()
+  // }
 
   return (
     <main className={clsx("min-h-screen p-6 flex flex-col items-center justify-center transition-colors duration-300", dark ? 'bg-gray-900 text-white' : 'bg-gray-100 text-gray-900')}>
